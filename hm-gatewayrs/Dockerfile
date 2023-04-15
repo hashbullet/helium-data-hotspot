@@ -1,7 +1,8 @@
 ARG SYSTEM_TIMEZONE=Europe/London
 ARG GATEWAY_RS_RELEASE=v1.0.0-alpha.33
 
-FROM balenalib/raspberry-pi-debian:buster-run
+#FROM balenalib/raspberry-pi-debian:buster-run
+FROM balenalib/raspberrypi4-64-debian:buster-run
 
 # Move to working directory
 WORKDIR /opt/gatewayrs
